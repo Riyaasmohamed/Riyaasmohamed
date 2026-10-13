@@ -1,79 +1,75 @@
-# GitHub setup – step by step (about 30 minutes)
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,55:1F2A44,100:F97316&height=200&section=header&text=Riyaas%20Mohamed&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=Java%20Backend%20Developer%20%C2%B7%20Spring%20Boot%20%C2%B7%20Banking&descSize=18&descAlignY=58&animation=fadeIn" alt="Riyaas Mohamed – Java Backend Developer" width="100%" />
+</p>
 
-Account: **https://github.com/Riyaasmohamed**
-Everything to upload is in this `github/` folder. Copy it to your laptop first (WinSCP: drag `github` to the left panel).
+<!-- Typing headline -->
+<p align="center">
+  <a href="https://riyaas-mohamed.netlify.app">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=F97316&center=true&vCenter=true&width=620&lines=Java+Backend+Developer+%E2%98%95;Spring+Boot+%C2%B7+Microservices+%C2%B7+REST+APIs;Secure+multi-tenant+banking+systems+%F0%9F%8F%A6;Open+to+work+%C2%B7+Bengaluru+%7C+Chennai+%7C+Pune" alt="Java Backend Developer · Spring Boot · Microservices · Banking" />
+  </a>
+</p>
 
-```
-github/
-├── Riyaasmohamed/      → your profile page (README + snake animation)
-├── banking-api/        → new Spring Boot banking project
-├── riyaas-portfolio/   → the 3D portfolio (Angular + Spring Boot)
-└── profile-preview.png → how your profile page will look
-```
+<p align="center">
+  <a href="https://riyaas-mohamed.netlify.app"><img src="https://img.shields.io/badge/Portfolio-0B1120?style=for-the-badge&logo=googlechrome&logoColor=F97316" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/riyaasmohamedn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:riyaasmohamedn@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-## Step 0 – Security first (2 min)
-1. **Settings → Password and authentication → Change password.**
-2. Same page → **Enable two-factor authentication** (use the GitHub Mobile app or Google Authenticator).
-3. Never share your password with anyone.
+### 👋 About me
 
-## Step 1 – Profile settings (5 min)
-Click your photo (top right) → **Settings → Public profile**:
+- ☕ **Java Backend Developer** with **~2 years** building a multi-tenant **agency banking platform** – deposits, withdrawals, fund transfers, bill payments and KYC account opening through agent networks.
+- 🏦 Day to day: **Spring Boot** services, **JPA/Hibernate**, **MySQL**, REST & SOAP integration with **core banking systems**, and **Spring Security** (JWT, OTP, CSRF, secure cookies).
+- 🔍 I enjoy the hard parts of backend work: **data isolation between banks**, **safe money movement**, and **finding root causes** in production.
+- 🌱 Learning now: **Kafka**, **PostgreSQL**, **AWS**.
+- 📍 Open to **Java backend roles** in **Bengaluru · Chennai · Pune** – hybrid, onsite or remote.
 
-| Field | Put this |
+### 🛠️ Tech stack
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate" />
+  <img src="https://img.shields.io/badge/Microservices-1F2A44?style=for-the-badge&logo=apachekafka&logoColor=F97316" alt="Microservices" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+</p>
+
+### 🚀 Featured projects
+
+| Project | What it shows |
 |---|---|
-| Profile picture | A clear, smiling headshot, plain background |
-| Name | `Riyaas Mohamed` |
-| Bio | `Java Backend Developer · Spring Boot, Microservices, MySQL · ~2 yrs building banking APIs · Open to work` |
-| URL | `https://riyaas-mohamed.netlify.app` |
-| Social accounts | `https://linkedin.com/in/riyaasmohamedn` |
-| Company | leave empty (keeps your job search quiet) |
-| Location | `Bengaluru, India` |
+| 🏦 **[banking-api](https://github.com/Riyaasmohamed/banking-api)** | Spring Boot banking API: **database per bank** via `AbstractRoutingDataSource`, **maker-checker** approval, **idempotent transfers** with row locking, **JWT** roles, audit trail, Swagger, Docker, CI |
+| 🌐 **[riyaas-portfolio](https://github.com/Riyaasmohamed/riyaas-portfolio)** | My portfolio – **Angular** + **three.js** 3D banking-architecture hero, backed by a **Spring Boot** API · [live site](https://riyaas-mohamed.netlify.app) |
 
-Click **Update profile**.
-Then on the same page → **Contributions & activity** → tick **Include private contributions on my profile** → Save.
+### 💼 Experience
 
-## Step 2 – Profile README (the big banner page) (5 min)
-1. Top right **+ → New repository**.
-2. Repository name: **`Riyaasmohamed`** (exactly your username). GitHub shows "✨ special repository" – good.
-3. **Public**, tick **Add a README file** → **Create repository**.
-4. Click `README.md` → ✏️ (Edit) → delete everything → open `Riyaasmohamed/README.md` from this folder in Notepad → copy all → paste → **Commit changes**.
-5. **Add file → Create new file**. In the name box type: `.github/workflows/snake.yml`
-   Open `Riyaasmohamed/.github/workflows/snake.yml` in Notepad → copy all → paste → **Commit changes**.
-6. Go to **Settings → Actions → General → Workflow permissions** → choose **Read and write permissions** → Save.
-7. **Actions** tab → **Contribution snake** → **Run workflow** → Run. Wait 1–2 minutes until it is green ✅.
-8. Open **https://github.com/Riyaasmohamed** – you will see the banner page.
+**Software Engineer (Java Developer)** · JMR Infotech · *Jan 2025 – Present*
+Multi-tenant agency banking platform: admin modules with maker-checker, tenant routing (schema per bank), REST/SOAP integration with **Oracle FLEXCUBE** and **Profitto**, JWT + OTP for 3 mobile apps, VAPT fixes, 15+ production issues solved.
 
-## Step 3 – Upload `banking-api` (5 min)
-1. **+ → New repository** → name **`banking-api`**.
-   Description: `Multi-tenant banking REST API – maker-checker, idempotent transfers, JWT, audit trail (Spring Boot)`
-   **Public**. Do **not** tick "Add a README". → **Create repository**.
-2. On the empty repo page click the link **"uploading an existing file"**.
-3. Open the `banking-api` folder on your laptop, select **everything inside it** (Ctrl+A – including the `.github` folder) and drag it onto the page.
-4. Commit message: `Initial commit: banking API` → **Commit changes**.
-5. Open the **Actions** tab – the **CI** build runs automatically and turns green ✅ (the badge in the README turns green too).
-6. On the repo page, right side **About ⚙️**:
-   - Website: `https://riyaas-mohamed.netlify.app`
-   - Topics: `java` `spring-boot` `spring-security` `jwt` `rest-api` `banking` `fintech` `multi-tenancy` `jpa` `docker`
-   - Save.
+### 🐍 Contribution activity
 
-## Step 4 – Upload `riyaas-portfolio` (5 min)
-Same as Step 3 with:
-- Name: **`riyaas-portfolio`**
-- Description: `My 3D developer portfolio – Angular + three.js frontend, Spring Boot API`
-- Upload **everything inside** the `riyaas-portfolio` folder.
-- About ⚙️ → Website: `https://riyaas-mohamed.netlify.app` · Topics: `portfolio` `angular` `threejs` `spring-boot` `java`
-
-## Step 5 – Pin your best work (1 min)
-Go to **https://github.com/Riyaasmohamed** → **Customize your pins** → tick **banking-api** and **riyaas-portfolio** → Save.
-
-## Step 6 – Update the live website (2 min)
-The website now has a **GitHub** button and the new Banking API project.
-Netlify → your project → **Deploys** → drag the folder `portfolio/website-upload` onto the page. Same link, updated site.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Riyaasmohamed/Riyaasmohamed/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Riyaasmohamed/Riyaasmohamed/output/github-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Riyaasmohamed/Riyaasmohamed/output/github-snake.svg" />
+</picture>
 
 ---
 
-### Keep it alive
-- Push small, real improvements every week (e.g. add PostgreSQL + Flyway to banking-api, add a test). A steady green contribution graph looks much better than a burst.
-- Never upload company code, configs or passwords.
+<p align="center">
+  <b>Hiring a Java backend developer?</b> I'd love to talk – <a href="mailto:riyaasmohamedn@gmail.com">riyaasmohamedn@gmail.com</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,45:1F2A44,100:0B1120&height=110&section=footer" alt="" width="100%" />
+</p>
